@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.accounting.V2.V2ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.807 s -- in com.accounting.V2.V2ApplicationTests
