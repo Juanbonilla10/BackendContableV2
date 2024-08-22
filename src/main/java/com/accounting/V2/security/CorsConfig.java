@@ -25,11 +25,15 @@ public class CorsConfig {
                 registry.addMapping("/login")
                         .allowedOrigins("http://3.12.136.169:5500")
                         .allowedMethods("*")
+                        .allowedHeaders("*")
+                        .allowCredentials(true)
                         .exposedHeaders("*");
                 
                 registry.addMapping("/api/**")
                         .allowedOrigins("http://3.12.136.169:5500")
-                        .allowedMethods("*");
+                        .allowedMethods("*")
+                        .allowedHeaders("*")
+                        .allowCredentials(true);
                 
             }
         };
