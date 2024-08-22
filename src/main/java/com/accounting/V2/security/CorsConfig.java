@@ -23,12 +23,12 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry){
                 
                 registry.addMapping("/login")
-                        .allowedOrigins("http://127.0.0.1:5500")
+                        .allowedOrigins("http://3.12.136.169:5500")
                         .allowedMethods("*")
                         .exposedHeaders("*");
                 
                 registry.addMapping("/api/**")
-                        .allowedOrigins("http://127.0.0.1:5500")
+                        .allowedOrigins("http://3.12.136.169:5500")
                         .allowedMethods("*");
                 
             }
